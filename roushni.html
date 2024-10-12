@@ -93,7 +93,18 @@
         box-shadow: 0 2px 5px rgba(248, 247, 247, 0.1);
         
     }
-    
+    .intro {
+    display: flex; /* Use flexbox to align items */
+    align-items: center; /* Center align items vertically */
+    }
+
+    .profile-pic {
+    width: 150px; /* Set the width of the image */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 9cap; /* Optional: make the image circular */
+    margin-right: 15px; /* Space between the image and text */
+    }
+
     h1, h2 {
         color: #333;
     }
@@ -104,8 +115,13 @@
     </style>
     <header>
         <h1>Hello! I’m an Emerging Technology Expert</h1>
-        <p>With a passion for leveraging modern technologies to solve complex challenges. Currently pursuing my MCA at PwC in collaboration with Patna Women's College, I am committed to continuous learning and professional development in the ever-evolving tech landscape.</p>
+        <div class="intro">
+            <img src="IMG-20230226-WA0242-01-01.jpeg" alt="Your Name" class="profile-pic">
+            <p>With a passion for leveraging modern technologies to solve complex challenges. Currently pursuing my MCA at PwC in collaboration with Patna Women's College, I am committed to continuous learning and professional development in the ever-evolving tech landscape.</p>
+        </div>
     </header>
+    
+    
     
     <section>
         <h2>🛠️ Skills</h2>
