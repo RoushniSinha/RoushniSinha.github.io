@@ -16,6 +16,8 @@ const Navigation = ({ activeSection }: NavigationProps) => {
     { id: 'skills', label: 'Skills' },
     { id: 'education', label: 'Education' },
     { id: 'certifications', label: 'Certifications' },
+    { id: 'cloud-badges', label: 'Cloud Certs' },
+    { id: 'coding-achievements', label: 'Coding' },
     { id: 'contact', label: 'Contact' },
   ];
 
